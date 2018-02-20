@@ -1,8 +1,12 @@
 {
   "presets": [
-    "env"
+    ["@babel/env", {
+      "targets": {
+        "browsers": ["last 2 versions", "IE 11"]
+      },
+      "debug": false
+    }],
+    "@babel/react"
   ],
-  "env": {
-    "browser": true
-  }
+  "plugins": ["@babel/plugin-proposal-object-rest-spread"]
 }

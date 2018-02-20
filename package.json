@@ -7,23 +7,30 @@
     "test": "node test/",
     "build": "webpack",
     "semantic-release": "semantic-release",
-    "prepare": "babel ./src --out-dir ./lib --source-maps --presets env",
+    "prepare": "babel ./src --out-dir ./lib --source-maps",
     "eslint": "eslint ."
   },
   "devDependencies": {
-    "babel-cli": "^6.26.0",
-    "babel-core": "^6.8.0",
-    "babel-loader": "^6.2.4",
-    "babel-register": "^6.8.0",
+    "@babel/cli": "^7.0.0-beta.34",
+    "@babel/core": "^7.0.0-beta.34",
+    "@babel/plugin-proposal-object-rest-spread": "^7.0.0-beta.36",
+    "@babel/preset-env": "^7.0.0-beta.34",
+    "@babel/preset-react": "^7.0.0-beta.34",
+    "babel-loader": "^8.0.0-beta.0",
+    "babel-eslint": "^8.0.3",
     "condition-circle": "1.5.0",
     "eslint": "^4.9.0",
     "eslint-config-webteam": "^2.0.0",
+    "eslint-plugin-react": "^7.4.0",
+    "eslint-plugin-jsx-a11y": "^6.0.2",
     "eslint-plugin-import": "^2.2.0",
     "semantic-release": "^8.2.0",
     "tape": "^4.8.0"
   },
   "dependencies": {
-    "babel-preset-env": "^1.6.1"
+    "babel-preset-env": "^1.6.1",
+    "prop-types": "^15.6.0",
+    "react": "^16.2.0"
   },
   "author": "Magne Skutle",
   "license": "ISC",
