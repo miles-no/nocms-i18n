@@ -1,0 +1,38 @@
+{
+  "name": "nocms-i18n",
+  "version": "0.0.0-semantic-release",
+  "description": "",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "node test/",
+    "build": "webpack",
+    "semantic-release": "semantic-release",
+    "prepare": "babel ./src --out-dir ./lib --source-maps --presets env",
+    "eslint": "eslint ."
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.8.0",
+    "babel-loader": "^6.2.4",
+    "babel-register": "^6.8.0",
+    "condition-circle": "1.5.0",
+    "eslint": "^4.9.0",
+    "eslint-config-webteam": "^2.0.0",
+    "eslint-plugin-import": "^2.2.0",
+    "semantic-release": "^8.2.0",
+    "tape": "^4.8.0"
+  },
+  "dependencies": {
+    "babel-preset-env": "^1.6.1"
+  },
+  "author": "Magne Skutle",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/miles-no/nocms-i18n.git"
+  },
+  "release": {
+    "verifyConditions": "condition-circle",
+    "debug": false
+  }
+}
