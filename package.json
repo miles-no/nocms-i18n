@@ -6,7 +6,7 @@
   "scripts": {
     "test": "node test/",
     "build": "webpack",
-    "semantic-release": "semantic-release",
+    "semantic-release": "semantic-release pre && npm publish && semantic-release post",
     "prepare": "babel ./src --out-dir ./lib --source-maps",
     "eslint": "eslint ."
   },
