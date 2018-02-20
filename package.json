@@ -1,6 +1,6 @@
 {
   "name": "nocms-i18n",
-  "version": "0.0.1",
+  "version": "0.0.0-semantic-release",
   "description": "",
   "main": "lib/index.js",
   "scripts": {
@@ -40,6 +40,6 @@
   },
   "release": {
     "verifyConditions": "condition-circle",
-    "debug": false
+    "debug": true
   }
 }

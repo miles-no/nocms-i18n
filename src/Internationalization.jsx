@@ -22,9 +22,5 @@ Internationalization.propTypes = {
   children: PropTypes.node,
 };
 
-Internationalization.dictionary = (phraseKey, lang) => {
-  return dictionary({}, phraseKey, lang); // TODO: Move this function an the I component into nocms-i18n
-};
-
 export default Internationalization;
 export { dictionary };
