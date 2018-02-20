@@ -4,6 +4,7 @@
 [![Dependency Status](https://david-dm.org/miles-no/nocms-i18n.svg)](https://david-dm.org/miles-no/nocms-i18n)
 [![devDependencies](https://david-dm.org/miles-no/nocms-i18n/dev-status.svg)](https://david-dm.org/miles-no/nocms-i18n?type=dev)
 
+
 ## Commit message format and publishing
 
 This repository is published using `semantic-release`, with the default [AngularJS Commit Message Conventions](https://docs.google.com/document/d/1QrDFcIiPjSLDn3EL15IJygNPiHORgU1_OOAqWjiDU5Y/edit).
