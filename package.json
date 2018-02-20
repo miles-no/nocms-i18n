@@ -1,6 +1,6 @@
 {
   "name": "nocms-i18n",
-  "version": "0.0.0-semantic-release",
+  "version": "0.0.1",
   "description": "",
   "main": "lib/index.js",
   "scripts": {
