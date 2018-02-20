@@ -1,4 +1,3 @@
-import Internationalization, { dictionary } from './Internationalization.jsx';
 
-export default Internationalization;
-export { dictionary };
+export { default as I } from './Internationalization.jsx';
+export { default as dictionary } from './dictionary';

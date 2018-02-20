@@ -5,7 +5,6 @@
   "main": "lib/index.js",
   "scripts": {
     "test": "node test/",
-    "build": "webpack",
     "semantic-release": "semantic-release pre && npm publish && semantic-release post",
     "prepare": "babel ./src --out-dir ./lib --source-maps",
     "eslint": "eslint ."
@@ -25,8 +24,7 @@
     "eslint-plugin-jsx-a11y": "^6.0.2",
     "eslint-plugin-react": "^7.4.0",
     "semantic-release": "^8.2.0",
-    "tape": "^4.8.0",
-    "webpack": "^3.11.0"
+    "tape": "^4.8.0"
   },
   "dependencies": {
     "babel-preset-env": "^1.6.1",
