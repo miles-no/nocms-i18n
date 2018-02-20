@@ -41,6 +41,6 @@
   },
   "release": {
     "verifyConditions": "condition-circle",
-    "debug": true
+    "debug": false
   }
 }
